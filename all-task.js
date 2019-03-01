@@ -29,3 +29,44 @@ if(age < 13){
 }else  {
     console.log(firstName + " ready to do marraige");
 }
+
+
+//ternary operators
+(age < 18) ? console.log(firstName + " Is a small boy to vote") : console.log(firstName + " Ready to vote");
+
+var profession = "Swimmer";
+
+(profession === "Teacher") ? console.log(firstName + " He theaches") : console.log(name + " somthing else do");
+
+//switch case 
+
+var name = "Sridhar";
+var profession = "Driver";
+
+switch(profession){
+    case "Teacher":
+        console.log(name + " teaches ");
+        break;
+    case "Driver":
+       console.log(name + " drives a car");
+       break;
+    case "Listen":
+        console.log(name + " listens music");
+        break;
+    default :
+        console.log(name + " somethings else to do");
+        break;
+}
+age = 12;
+switch(true){
+   
+    case (age < 13):
+        console.log(firstName + " is a boy");
+        break;
+    case (age >= 13 && age < 20):
+        console.log(firstName + " is a adult");
+        break;
+    default:
+        console.log(firstName + " ready to do marraige");  
+        break;
+}

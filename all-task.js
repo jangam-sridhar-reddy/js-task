@@ -268,3 +268,42 @@ console.log(tips);
 var finalBills = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(finalBills);
+
+
+//objects and properties
+
+var sridhar = {
+    firstName : "Sridhar",
+    lastName : "Reddy",
+    birthYear : 1992,
+    family : ["Indiramma", "Preethi", "Laxmamma"],
+    job : "Teacher",
+    isMarried : false
+};
+
+console.log(sridhar);
+console.log(sridhar.firstName);
+console.log(sridhar["job"]);
+var year = "birthYear";
+console.log(sridhar[year]);
+console.log(sridhar.family[0]);
+
+
+sridhar.job = "Designer";
+sridhar["isMarried"] = true;
+console.log(sridhar);
+console.log(sridhar["job"]);
+
+var kondal = new Object();
+
+kondal.firstName = "Kondal";
+kondal.lastName = "Reddy";
+kondal["birthYear"] = 1996;
+kondal.family = [];
+kondal.family[0] = "Malla Reddy";
+kondal["family"][1] = "Varamma";
+kondal.isMarried = false;
+kondal["job"] =  "He Works In AirPort ";
+
+console.log(kondal);
+
